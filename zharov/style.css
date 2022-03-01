@@ -1,0 +1,55 @@
+
+body {
+  background-image:url(image/fon) ;
+}
+
+.pole {
+  border: 2px solid rgb(197, 183, 183);
+  position: relative;
+  top: 700px;
+}
+
+#zharov {
+  position: relative;
+  top: 355px;
+  left: 150px;
+}
+
+#pipi {
+  position: relative;
+  top: 355px;
+  left: 900px;
+  animation: pipiMov 2s infinite linear;
+}
+
+@keyframes pipiMov {
+  0% {
+    left: 1250px;
+  }
+  100% {
+    left: -150px;
+  }
+}
+
+.jump {
+  animation: jump 1s linear;
+}
+
+@keyframes jump {
+  0% {
+    top: 180px;
+  }
+  30% {
+    top: 50px;
+  }
+  50% {
+    top: 30px;
+  }
+  80% {
+    top: 50 px;
+  }
+
+  100% {
+    top: 180px;
+  }
+}
